@@ -43,7 +43,7 @@ const App = () => {
         <Header>
           Lista de Tarefas
         </Header>
-
+        
         <AddTaskArea onEnter={handleAddTask} />
 
         {list.map((task, index) => (
